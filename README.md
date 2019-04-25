@@ -1,5 +1,5 @@
-class-file-parse-rbac
-=====================
+Yaf-Framework-RBAC-Extract-Tools
+================================
 对 PHP 类文件解析，为 RBAC(角色管理) 提供 `URI - description` 数据。
 #### 思想来源
 项目需要做 rbac 管理，通过对 URI 分析判断用户是否有权限访问。这个组件算是个工具，可以自动帮我们提取某个 Action URI 及对应释义(前提是你得有备注信息)。
@@ -8,7 +8,7 @@ class-file-parse-rbac
 #### 如何安装本组件？
 - composer 自动安装
 ```bash
-composer require -o codezm/class-file-parse-rbac:dev-master
+composer require -o codezm/yaf-framework-rbac-extract-tools:dev-master
 ```
 
 #### 如何使用本组件
